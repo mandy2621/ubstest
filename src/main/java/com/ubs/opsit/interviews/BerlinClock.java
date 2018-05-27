@@ -93,6 +93,7 @@ public class BerlinClock implements TimeConverter{
     }
 
 
+    
 	@Override
 	public String convertTime(String aTime) {
 		 Integer h1 = Integer.valueOf((aTime.substring(0, 2)));
